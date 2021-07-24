@@ -1,5 +1,5 @@
-.blue-text {
-  color: blue;
+.red-text {
+  color: red;
   font-family: 'Comic Sans MS'
 }
 
@@ -15,11 +15,11 @@
 }
 
 .first-section{
-  color: red;
+  color: blue;
   font-family: monospace;
-  border-color: grey;
+  border-color: black;
   border-width: 10px;
-  border-style: dashed;
+  border-style: solid;
   padding: 20px;
   margin: 30px;
   text-align: left;
@@ -27,7 +27,7 @@
   font-family: "Calibri", sans-serif;
 
 }
-.Heading#2 {
+.Heading-2 {
   font-color: blue;
   font-family: sans-serif;
   font-size: 15pt;
