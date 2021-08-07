@@ -1,4 +1,4 @@
-function fibonnacci(n){
+function fibonacci(n){
   const arr= [0,1];
   if (n<=2) return 1;
   for(var i=2; i<=n;i++){
@@ -6,11 +6,12 @@ function fibonnacci(n){
     }
     return arr[n];
 }
-function askForName(){
+function askForNumber(){
   var n = parseInt(document.getElementById("user-input").value);
   if(isNaN(n)){
-    document.getElementById("first-ptag").innerHTML = "That is not a number";
-  }else{
-    document.getElementById("first-ptag").innerHTML = "The fibonacci of your favorite number is: " + fibonnacci(n);
+    document.getElementById("response").innerHTML = "That is not a number";
+  }
+  else{
+    document.getElementById("response").innerHTML = "The " + n+ "th number of the fibonacci sequence based on your favorite number is: " + fibonacci(n);
   }
 }

@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  </head>
-  <body>
-    <div class="w3-container">
-      <p id="first-ptag">Hello, World!</p>
-      <p><input type="number" id="user-input"></input></p>
-      <p><button class="w3-button w3-black" onclick="askForName()">Hello</button></p>
-      <p><a href="index.html">Go Home</a></p>
-    </div>
-    <script src="main.js"></script>
-  </body>
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class= w3-blue>
+  <div class="w3-bar w3-amber w3-animate-top">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="Foods.html" class="w3-bar-item w3-button">Foods That I like</a>
+      <a href="intro-to-js.html" class="w3-bar-item w3-button">Run Javascript</a>
+  </div>
+  <div class="w3-container w3-border w3-border-black w3-bottombar">
+    <p><a href="index.html">Go Home</a></p>
+    <p id="response">Hello!</p>
+    <p><input type="number" id="user-input"></input></p>
+    <p><button class="w3-button w3-black" onclick="askForNumber()">Submit</button></p>
+  </div>
+  <script src="main.js"></script>
+</body>
 </html>
